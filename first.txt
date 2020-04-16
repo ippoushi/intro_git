@@ -1,1 +1,2 @@
-intro
+- git add 
+- git commit
