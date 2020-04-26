@@ -1,0 +1,59 @@
+git
+ バージョン管理システム
+- SVN(Subversion)
+-
+-
+
+困ること
+- 同時編集
+  - 誰が何をいつ編集してたかわかる
+- 削除される
+  - どの断面にも戻せる
+- 勝手に編集
+- 上書き
+-
+SVN
+- バージォン監視のサブモデル
+- 中央集権的なバージョン管理システム
+- めんどくさい
+- 壊れたら誰も管理できなくなる
+  - ここで、分散管理システムができた
+
+分散型
+- 各々のディレクトリにバージョン管理出来る
+- 共有用がgithub
+- 各々が管理できるメリットがでかい
+
+ほとんどのソース管理はgit
+
+git
+- add
+  -
+- commit
+- push
+- status
+- checkout
+- branch
+- remote
+- init　　> git clone関係
+- fetch
+- diff
+- push
+- clone
+  - リポジトリ取得　元々githubにあるとこから
+- revert
+- reset
+- switch
+- rebase
+
+
+stageに上げる作業　add
+commit　hash =バ〜ジョン
+branch 横に派生すること
+
+
+自分の物を汚すことなくへんしぅうできる
+ブランチをひとまとめにシテ持ってくことができるもん
+sqash
+git checkout -b XXXX新しいブランチ名
+　　　　　　ブランチ作るーb
